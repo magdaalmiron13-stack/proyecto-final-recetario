@@ -1,234 +1,371 @@
-
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Recetas dulces caseras | Mi Recetario</title>
-
-    <meta name="description" content="Descubrí recetas dulces caseras de tarta de frutilla y torta de chocolate, con ingredientes y procedimientos explicados paso a paso.">
-
-
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>
+      Recetas dulces caseras | Mi Recetario
+    </title>
+    <meta content="Descubrí recetas dulces caseras de tarta de frutilla y torta de chocolate, con ingredientes y procedimientos explicados paso a paso." name="description"/>
+    <meta content="recetas dulces, postres caseros, tarta de frutilla, torta de chocolate, repostería" name="keywords"/>
     <!-- Bootstrap CSS -->
-<link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-    rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
-    <link rel="stylesheet" href="../styles/styles.css">
-</head>
-
-<body class="texto-general">
-    
-<header class="encabezado-principal">
-
-    <nav class="navbar navbar-expand-lg navbar-recetario">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
+    <link href="../styles/styles.css" rel="stylesheet"/>
+  </head>
+  <body class="texto-general">
+    <header class="encabezado-principal">
+      <nav class="navbar navbar-expand-lg navbar-recetario">
         <div class="container-fluid">
-
-            <!-- Logo -->
-            <a class="navbar-brand" href="../index.html">
-                <img
-                    class="foto-logo animate__animated animate__zoomIn"
-                    src="../imagenes/logo.webp"
-                    alt="Logo de Mi Recetario">
-            </a>
-
-            <!-- Botón hamburguesa -->
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#menuRecetario"
-                aria-controls="menuRecetario"
-                aria-expanded="false"
-                aria-label="Abrir menú">
-
-                <span class="navbar-toggler-icon"></span>
-
-            </button>
-
-            <!-- Enlaces -->
-            <div class="collapse navbar-collapse" id="menuRecetario">
-
-                <ul class="navbar-nav ms-auto">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index.html">
-                            Inicio
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="dulce.html" aria-current="page">
-                            Dulce
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="salado.html">
-                            Salado
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="basicos.html">
-                            Básicos
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="saludable.html">
-                            Saludable
-                        </a>
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-    </nav>
-
-</header>
-
-    <main class="contenido-principal">
-        <h1 class="titulo-principal">Recetas dulces caseras</h1>
-        <p class="parrafo-receta">
-            Descubrí recetas dulces caseras para preparar en casa:
-            tarta de frutilla con diferentes rellenos y torta de chocolate,
-            con ingredientes y procedimientos explicados paso a paso.
-        </p>
-
-        <section class="seccion-receta">
-            <h2 class="subtitulo-categoria">Tartas</h2>
-
-            <article class="articulo-informativo">
-                <h3 class="subtitulo-receta" id="tarta-frutilla">Tarta de frutilla</h3>
-
-                <section class="seccion-receta">
-                    <img class="foto-receta imagen-general" src="../imagenes/tarta_frutilla.JPG" alt="Tarta de frutilla">
-
-                    <h4 class="subtitulo-receta">Variante 1: Almendras</h4>
-                    <h5 class="subtitulo-receta">Ingredientes</h5>
-                    <ul>
-                        <li>500 g de frutillas</li>
-                        <li>Miel</li>
-                        <li>100 g de manteca pomada</li>
-                        <li>120 g de azúcar</li>
-                        <li>2 huevos</li>
-                        <li>160 g de polvo de almendras</li>
-                        <li><a class="enlace-receta" href="basicos.html#masa-sablee">Masa sablée</a></li>
-                    </ul>
-
-                    <h5 class="subtitulo-receta">Procedimiento</h5>
-                    <ol>
-                        <li>Preparar la masa sablée y dejar reposar durante 1 hora.</li>
-                        <li>Para la crema de almendras, colocar la manteca pomada en un recipiente.</li>
-                        <li>Agregar el azúcar y los huevos.</li>
-                        <li>Incorporar por último el polvo de almendras.</li>
-                        <li>En una tartera, estirar la masa y colocar el relleno.</li>
-                        <li>Hornear aproximadamente 20-25 minutos a 170 °C.</li>
-                        <li>Dejar enfriar.</li>
-                        <li>Colocar las frutillas por encima.</li>
-                        <li>Derretir la miel y pincelar la tarta.</li>
-                    </ol>
-
-                    <h4 class="subtitulo-receta">Variante 2: Crema y dulce de leche</h4>
-                    <h5 class="subtitulo-receta">Ingredientes</h5>
-                    <ul>
-                        <li>500 g de frutillas</li>
-                        <li>2 potes de dulce de leche</li>
-                        <li>1 pote de crema</li>
-                        <li>½ taza de azúcar</li>
-                        <li><a class="enlace-receta" href="basicos.html#masa-sablee">Masa sablée</a></li>
-                    </ul>
-
-                    <h5 class="subtitulo-receta">Procedimiento</h5>
-                    <ol>
-                        <li>Preparar la masa sablée y dejar reposar durante 1 hora.</li>
-                        <li>Batir la crema junto con el azúcar hasta que esté semi montada.</li>
-                        <li>En una tartera, estirar la masa y colocar el relleno.</li>
-                        <li>Hornear aproximadamente 20 minutos a 170 °C.</li>
-                        <li>Dejar enfriar.</li>
-                        <li>Rellenar con el dulce de leche y la crema.</li>
-                        <li>Colocar las frutillas por encima.</li>
-                    </ol>
-
-                    <h4 class="subtitulo-receta">Variante 3: Crema pastelera</h4>
-                    <h5 class="subtitulo-receta">Ingredientes</h5>
-                    <ul>
-                        <li>600 g de frutillas</li>
-                        <li><a class="enlace-receta" href="basicos.html#crema-pastelera">Crema pastelera</a></li>
-                        <li><a class="enlace-receta" href="basicos.html#masa-sablee">Masa sablée</a></li>
-                    </ul>
-
-                    <h5 class="subtitulo-receta">Procedimiento</h5>
-                    <ol>
-                        <li>Preparar la masa sablée y dejar reposar durante 1 hora.</li>
-                        <li>En una tartera, estirar la masa.</li>
-                        <li>Hornear aproximadamente 20 minutos a 170 °C.</li>
-                        <li>Dejar enfriar completamente.</li>
-                        <li>Preparar la crema pastelera y echarla sobre la masa.</li>
-                        <li>Una vez fría la tarta, colocar las frutillas por encima.</li>
-                    </ol>
-                </section>
-            </article>
-        </section>
-
-        <section class="seccion-receta">
-            <h2 class="subtitulo-categoria">Tortas</h2>
-
-            <article class="articulo-informativo">
-                <h3 class="subtitulo-receta" id="torta-chocolate">Torta de chocolate</h3>
-
-                <section class="seccion-receta">
-                    <img class="foto-receta imagen-general" src="../imagenes/torta_chocolate.jpg" alt="Torta de chocolate">
-
-                    <h4 class="subtitulo-receta">Ingredientes</h4>
-                    <ul>
-                        <li>260 g de harina 4 ceros</li>
-                        <li>160 g de cacao</li>
-                        <li>1 cucharadita de bicarbonato de sodio</li>
-                        <li>1 cucharadita de polvo de hornear</li>
-                        <li>220 g de azúcar</li>
-                        <li>3 huevos</li>
-                        <li>Esencia de vainilla</li>
-                        <li>240 ml de agua</li>
-                        <li>3 cucharadas de mayonesa</li>
-                    </ul>
-
-                    <h4 class="subtitulo-receta">Procedimiento</h4>
-                    <ol>
-                        <li>Batir los huevos y el azúcar hasta que estén espumosos.</li>
-                        <li>Agregar la esencia de vainilla y la mayonesa. Luego, batir.</li>
-                        <li>Agregar el agua.</li>
-                        <li>Tamizar los ingredientes secos y mezclar hasta unir.</li>
-                        <li>Volcar la preparación en un molde.</li>
-                        <li>Hornear a 180 °C durante aproximadamente 45 minutos.</li>
-                    </ol>
-                </section>
-            </article>
-        </section>
-    </main>
-
-    <footer class="pie-pagina">
-        <ul class="lista-redes">
-            <li>
-                <a href="https://www.instagram.com/maggiealmiron_?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">
-                    <img class= "foto-logo" src="../imagenes/instagram.png" alt="Logo de Instagram">
+          <!-- Logo -->
+          <a class="navbar-brand" href="../index.html">
+            <img alt="Logo de Mi Recetario" class="foto-logo animate__animated animate__zoomIn" src="../assets/logo.webp"/>
+          </a>
+          <!-- Botón hamburguesa -->
+          <button aria-controls="menuRecetario" aria-expanded="false" aria-label="Abrir menú" class="navbar-toggler" data-bs-target="#menuRecetario" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon">
+            </span>
+          </button>
+          <!-- Enlaces -->
+          <div class="collapse navbar-collapse" id="menuRecetario">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">
+                  Inicio
                 </a>
+              </li>
+              <li class="nav-item">
+                <a aria-current="page" class="nav-link" href="dulce.html">
+                  Dulce
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="salado.html">
+                  Salado
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="basicos.html">
+                  Básicos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="saludable.html">
+                  Saludable
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="contenido-principal">
+      <h1 class="titulo-principal">
+        Recetas dulces caseras
+      </h1>
+      <p class="parrafo-receta">
+        Descubrí recetas dulces caseras para preparar en casa:
+                        tarta de frutilla con diferentes rellenos y torta de chocolate,
+                        con ingredientes y procedimientos explicados paso a paso.
+      </p>
+      <section class="seccion-receta">
+        <h2 class="subtitulo-categoria">
+          Tartas
+        </h2>
+        <article class="articulo-informativo">
+          <h3 class="subtitulo-receta" id="tarta-frutilla">
+            Tarta de frutilla
+          </h3>
+          <img alt="Tarta de frutilla" class="foto-receta imagen-general" src="../assets/tarta-frutilla.webp"/>
+          <h4 class="subtitulo-receta">
+            Variante 1: Almendras
+          </h4>
+          <h5 class="subtitulo-receta">
+            Ingredientes
+          </h5>
+          <ul>
+            <li>
+              500 g de frutillas
             </li>
-        </ul>
-
-        <p class="texto-pie">Todos los derechos reservados</p>
+            <li>
+              Miel
+            </li>
+            <li>
+              100 g de manteca pomada
+            </li>
+            <li>
+              120 g de azúcar
+            </li>
+            <li>
+              2 huevos
+            </li>
+            <li>
+              160 g de polvo de almendras
+            </li>
+            <li>
+              <a class="enlace-receta" href="basicos.html#masa-sablee">
+                Masa sablée
+              </a>
+            </li>
+          </ul>
+          <div class="contenedor-procedimiento">
+            <div class="accordion" id="acordeonAlmendras">
+              <div class="accordion-item">
+                <h5 class="accordion-header" id="tituloAlmendras">
+                  <button aria-controls="procedimientoAlmendras" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#procedimientoAlmendras" data-bs-toggle="collapse" type="button">
+                    Procedimiento
+                  </button>
+                </h5>
+                <div aria-labelledby="tituloAlmendras" class="accordion-collapse collapse" data-bs-parent="#acordeonAlmendras" id="procedimientoAlmendras">
+                  <div class="accordion-body">
+                    <ol>
+                      <li>
+                        Preparar la masa sablée y dejar reposar durante 1 hora.
+                      </li>
+                      <li>
+                        Para la crema de almendras, colocar la manteca pomada en un recipiente.
+                      </li>
+                      <li>
+                        Agregar el azúcar y los huevos.
+                      </li>
+                      <li>
+                        Incorporar por último el polvo de almendras.
+                      </li>
+                      <li>
+                        En una tartera, estirar la masa y colocar el relleno.
+                      </li>
+                      <li>
+                        Hornear aproximadamente 20-25 minutos a 170 °C.
+                      </li>
+                      <li>
+                        Dejar enfriar.
+                      </li>
+                      <li>
+                        Colocar las frutillas por encima.
+                      </li>
+                      <li>
+                        Derretir la miel y pincelar la tarta.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4 class="subtitulo-receta">
+            Variante 2: Crema y dulce de leche
+          </h4>
+          <h5 class="subtitulo-receta">
+            Ingredientes
+          </h5>
+          <ul>
+            <li>
+              500 g de frutillas
+            </li>
+            <li>
+              2 potes de dulce de leche
+            </li>
+            <li>
+              1 pote de crema
+            </li>
+            <li>
+              ½ taza de azúcar
+            </li>
+            <li>
+              <a class="enlace-receta" href="basicos.html#masa-sablee">
+                Masa sablée
+              </a>
+            </li>
+          </ul>
+          <div class="contenedor-procedimiento">
+            <div class="accordion" id="acordeonCremaDulceLeche">
+              <div class="accordion-item">
+                <h5 class="accordion-header" id="tituloCremaDulceLeche">
+                  <button aria-controls="procedimientoCremaDulceLeche" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#procedimientoCremaDulceLeche" data-bs-toggle="collapse" type="button">
+                    Procedimiento
+                  </button>
+                </h5>
+                <div aria-labelledby="tituloCremaDulceLeche" class="accordion-collapse collapse" data-bs-parent="#acordeonCremaDulceLeche" id="procedimientoCremaDulceLeche">
+                  <div class="accordion-body">
+                    <ol>
+                      <li>
+                        Preparar la masa sablée y dejar reposar durante 1 hora.
+                      </li>
+                      <li>
+                        Batir la crema junto con el azúcar hasta que esté semi montada.
+                      </li>
+                      <li>
+                        En una tartera, estirar la masa y colocar el relleno.
+                      </li>
+                      <li>
+                        Hornear aproximadamente 20 minutos a 170 °C.
+                      </li>
+                      <li>
+                        Dejar enfriar.
+                      </li>
+                      <li>
+                        Rellenar con el dulce de leche y la crema.
+                      </li>
+                      <li>
+                        Colocar las frutillas por encima.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4 class="subtitulo-receta">
+            Variante 3: Crema pastelera
+          </h4>
+          <h5 class="subtitulo-receta">
+            Ingredientes
+          </h5>
+          <ul>
+            <li>
+              600 g de frutillas
+            </li>
+            <li>
+              <a class="enlace-receta" href="basicos.html#crema-pastelera">
+                Crema pastelera
+              </a>
+            </li>
+            <li>
+              <a class="enlace-receta" href="basicos.html#masa-sablee">
+                Masa sablée
+              </a>
+            </li>
+          </ul>
+          <div class="contenedor-procedimiento">
+            <div class="accordion" id="acordeonCremaPastelera">
+              <div class="accordion-item">
+                <h5 class="accordion-header" id="tituloCremaPastelera">
+                  <button aria-controls="procedimientoCremaPastelera" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#procedimientoCremaPastelera" data-bs-toggle="collapse" type="button">
+                    Procedimiento
+                  </button>
+                </h5>
+                <div aria-labelledby="tituloCremaPastelera" class="accordion-collapse collapse" data-bs-parent="#acordeonCremaPastelera" id="procedimientoCremaPastelera">
+                  <div class="accordion-body">
+                    <ol>
+                      <li>
+                        Preparar la masa sablée y dejar reposar durante 1 hora.
+                      </li>
+                      <li>
+                        En una tartera, estirar la masa.
+                      </li>
+                      <li>
+                        Hornear aproximadamente 20 minutos a 170 °C.
+                      </li>
+                      <li>
+                        Dejar enfriar completamente.
+                      </li>
+                      <li>
+                        Preparar la crema pastelera y echarla sobre la masa.
+                      </li>
+                      <li>
+                        Una vez fría la tarta, colocar las frutillas por encima.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="seccion-receta">
+        <h2 class="subtitulo-categoria">
+          Tortas
+        </h2>
+        <article class="articulo-informativo">
+          <h3 class="subtitulo-receta" id="torta-chocolate">
+            Torta de chocolate
+          </h3>
+          <img alt="Torta de chocolate" class="foto-receta imagen-general" src="../assets/torta-chocolate.jpg"/>
+          <h4 class="subtitulo-receta">
+            Ingredientes
+          </h4>
+          <ul>
+            <li>
+              260 g de harina 4 ceros
+            </li>
+            <li>
+              160 g de cacao
+            </li>
+            <li>
+              1 cucharadita de bicarbonato de sodio
+            </li>
+            <li>
+              1 cucharadita de polvo de hornear
+            </li>
+            <li>
+              220 g de azúcar
+            </li>
+            <li>
+              3 huevos
+            </li>
+            <li>
+              Esencia de vainilla
+            </li>
+            <li>
+              240 ml de agua
+            </li>
+            <li>
+              3 cucharadas de mayonesa
+            </li>
+          </ul>
+          <div class="contenedor-procedimiento">
+            <div class="accordion" id="acordeonTortaChocolate">
+              <div class="accordion-item">
+                <h4 class="accordion-header" id="tituloTortaChocolate">
+                  <button aria-controls="procedimientoTortaChocolate" aria-expanded="false" class="accordion-button collapsed" data-bs-target="#procedimientoTortaChocolate" data-bs-toggle="collapse" type="button">
+                    Procedimiento
+                  </button>
+                </h4>
+                <div aria-labelledby="tituloTortaChocolate" class="accordion-collapse collapse" data-bs-parent="#acordeonTortaChocolate" id="procedimientoTortaChocolate">
+                  <div class="accordion-body">
+                    <ol>
+                      <li>
+                        Batir los huevos y el azúcar hasta que estén espumosos.
+                      </li>
+                      <li>
+                        Agregar la esencia de vainilla y la mayonesa. Luego, batir.
+                      </li>
+                      <li>
+                        Agregar el agua.
+                      </li>
+                      <li>
+                        Tamizar los ingredientes secos y mezclar hasta unir.
+                      </li>
+                      <li>
+                        Volcar la preparación en un molde.
+                      </li>
+                      <li>
+                        Hornear a 180 °C durante aproximadamente 45 minutos.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="pie-pagina">
+      <ul class="lista-redes">
+        <li>
+          <a href="https://www.instagram.com/maggiealmiron_?utm_source=ig_web_button_share_sheet&amp;stkn=ZDNlZDc0MzIxNw==" rel="noopener noreferrer" target="_blank">
+            <img alt="Logo de Instagram" class="foto-logo" src="../assets/instagram.png"/>
+          </a>
+        </li>
+      </ul>
+      <p class="texto-pie">
+        Todos los derechos reservados
+      </p>
     </footer>
-
-     <!-- Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+  </body>
 </html>
