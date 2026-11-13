@@ -6,7 +6,7 @@ Mi Recetario reúne recetas caseras dulces, saladas, saludables y preparaciones 
 
 ## Sitio publicado
 
-**Ver Mi Recetario:** PENDIENTE_DE_AGREGAR_URL_DE_NETLIFY
+**Ver Mi Recetario:** https://mi-recetario-web.netlify.app/
 
 ## Páginas
 
